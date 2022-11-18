@@ -1,0 +1,109 @@
+.container {
+  background-color: white;
+  height: 100vh;
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 32px;
+  margin: 0 auto;
+}
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+}
+.navLeft__links {
+  display: flex;
+  align-items: center;
+}
+.navLeft__links > * {
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
+  margin-right: 24px;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+.navRight > * {
+  list-style: none;
+  margin-right: 24px;
+}
+.features {
+  position: relative;
+}
+.features:hover .hoverFeatures , .hoverFeatures:hover{
+  display: block;
+}
+.hoverFeatures {
+  position: absolute;
+  right: 0;
+  display: none;
+  padding: 12px 24px 4px;
+  background-color: lightgray;
+  font-size: 18px;
+  border-radius: 4px;
+
+}
+.hoverFeatures > *{
+  margin-bottom: 8px;
+}
+.link:hover{
+  text-decoration: underline;
+  color:red;
+}
+.btn {
+  cursor: pointer;
+}
+.btn__special {
+  padding: 8px 24px;
+  border-radius: 10px;
+  border-color: transparent;
+  box-shadow: 0 0 0 1px #000;
+  margin: 1px 3px;
+}
+.landing {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.landing__Left {
+  width: 50%;
+  padding: 36px 12px;
+}
+.landing__Left > * {
+  margin-bottom: 72px;
+}
+.landing__Left > h1 {
+  font-size: 84px;
+  font-weight: bold;
+}
+.landing__Left > p {
+  font-size: 24px;
+  color: darkgray;
+  line-height: 42px;
+}
+.h1__span::after {
+  display: inline-block;
+}
+.landing__Right {
+  width: 50%;
+}
+.image__Container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.btn__hero {
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 12px 24px;
+}
