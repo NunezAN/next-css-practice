@@ -13,13 +13,18 @@
   text-align: center;
   font-size: 56px;
 }
+.project__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
 .project__links > * {
   text-decoration: none;
   color: gray;
   font-size: x-large;
 }
-.project__links:hover > * {
+.project__link:hover {
   text-decoration: underline;
   color: blue;
 }

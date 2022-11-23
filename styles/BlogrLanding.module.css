@@ -1,0 +1,132 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+.nav {
+  width: screen;
+  background: rgb(255, 139, 112);
+  background: linear-gradient(
+    146deg,
+    rgba(255, 139, 112, 1) 0%,
+    rgba(255, 68, 87, 1) 50%
+  );
+  padding: 36px 140px;
+  border-radius: 0px 0px 0px 50px;
+}
+.topNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topNav__left {
+  display: flex;
+  align-items: center;
+}
+.topNav__left__links {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.topNav__left__links > a {
+  text-decoration: none;
+  color: white;
+}
+.topNav__right__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+  color: white;
+  cursor: pointer;
+}
+.topNav__right__linkSpecial {
+  color: #ff4457;
+  background-color: white;
+  border-radius: 66px;
+  padding: 8px 24px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding-top: 42px;
+  padding-bottom: 72px;
+  color: white;
+}
+.header > h1 {
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+}
+.header__btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.header__btn {
+  padding: 8px 24px;
+  border-radius: 66px;
+  border: none;
+  cursor: pointer;
+}
+.header__btnLeft {
+  background-color: white;
+  color: #ff4457;
+  font-weight: bold;
+}
+.header__btnRight {
+  background-color: inherit;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.futureSection {
+  background-color: white;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 56px;
+}
+.sectionTitle {
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 32px;
+  color: #2d2f40;
+}
+.futureSection__text {
+  width: 45%;
+  margin-top: 82px;
+  padding: 72px;
+}
+.futureSection__img {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  right: -100px;
+  z-index: 99;
+}
+.futureSection__text__Split{
+    padding-bottom:24px
+}
+.futureSection__text__Split > span {
+  color: #2d2f40;
+  font-weight: bold;
+  font-size: 21px;
+}
+.futureSection__text__Split > p {
+  color: gray;
+  font-size: 14px;
+  line-height: 21px;
+}
