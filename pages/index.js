@@ -13,6 +13,9 @@ export default function Home() {
         <Link className={styles.project__link} href="/BlogrLanding">
           Blogr Landing Page
         </Link>
+        <Link className={styles.project__link} href="/TimeTrackingDashboard">
+          Time Tracking Dashboard
+        </Link>
       </div>
     </div>
   );
