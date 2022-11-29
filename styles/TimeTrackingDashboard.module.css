@@ -74,6 +74,9 @@
   opacity: 60%;
   font-size: 1.1rem;
 }
+.selected {
+  opacity: 100%;
+}
 @media (max-width: 600px) {
   .container {
     display: flex;
