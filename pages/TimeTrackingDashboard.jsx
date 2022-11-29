@@ -24,18 +24,53 @@ const TimeTrackingDashboard = () => {
         </ul>
       </div>
       <div className={styling.timeCard}>
-        <div>
+        <div className={styling.timeCard__title}>
           <span>Work</span>
           <span>...</span>
         </div>
-        <h4>32hrs</h4>
-        <span>last week - 36hrs</span>
+        <h4 className={styling.timeCard__hours}>32hrs</h4>
+        <span className={styling.timeCard__last}>last week - 36hrs</span>
       </div>
-      <div className={styling.timeCard}></div>
-      <div className={styling.timeCard}></div>
-      <div className={styling.timeCard}></div>
-      <div className={styling.timeCard}></div>
-      <div className={styling.timeCard}></div>
+      <div className={styling.timeCard}>
+        <div className={styling.timeCard__title}>
+          <span>Work</span>
+          <span>...</span>
+        </div>
+        <h4 className={styling.timeCard__hours}>32hrs</h4>
+        <span className={styling.timeCard__last}>last week - 36hrs</span>
+      </div>
+      <div className={styling.timeCard}>
+        <div className={styling.timeCard__title}>
+          <span>Work</span>
+          <span>...</span>
+        </div>
+        <h4 className={styling.timeCard__hours}>32hrs</h4>
+        <span className={styling.timeCard__last}>last week - 36hrs</span>
+      </div>
+      <div className={styling.timeCard}>
+        <div className={styling.timeCard__title}>
+          <span>Work</span>
+          <span>...</span>
+        </div>
+        <h4 className={styling.timeCard__hours}>32hrs</h4>
+        <span className={styling.timeCard__last}>last week - 36hrs</span>
+      </div>
+      <div className={styling.timeCard}>
+        <div className={styling.timeCard__title}>
+          <span>Work</span>
+          <span>...</span>
+        </div>
+        <h4 className={styling.timeCard__hours}>32hrs</h4>
+        <span className={styling.timeCard__last}>last week - 36hrs</span>
+      </div>
+      <div className={styling.timeCard}>
+        <div className={styling.timeCard__title}>
+          <span>Work</span>
+          <span>...</span>
+        </div>
+        <h4 className={styling.timeCard__hours}>32hrs</h4>
+        <span className={styling.timeCard__last}>last week - 36hrs</span>
+      </div>
     </div>
   );
 };
